@@ -2,10 +2,10 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Login | Navio</title>
+        <title>Cadastro | Navio</title>
         <link rel="stylesheet" href="../css/header.css"/>
         <link rel="stylesheet" href="../css/main.css"/>
-        <link rel="stylesheet" href="../css/login.css"/>
+        <link rel="stylesheet" href="../css/cadastro.css"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
     
@@ -19,8 +19,8 @@
         </header>
 
         <main>
-            <h1>Login</h1>
-            <div id="box-login">
+            <h1>Cadastro</h1>
+            <div id="box-register">
                 <!--TODO: definir action -->
                 <form action="" method="POST">
                     <div class="input-block-label">
@@ -42,15 +42,23 @@
                         <br>
                         <br>
                     </div>
+                    <div class="input-block-label">
+                        <label for="confirm-password">Confirmar Senha:</label>
+                        <br>
+                    </div>
+                    <div class="input-block-input">
+                        <input id="confirm-password" type="password">
+                        <br>
+                        <br>
+                        <br>
+                    </div>
                     
-                    <button id="btcontinuar" type="button">
-                        Continuar
+                    <button id="btcriar-cadastro" type="button">
+                        Criar seu cadastro
                     </button>
                 </form>
             </div>
-            <p><br><br><br>Não tem cadastro? <a href="../html/cadastro.html">Cadastre-se aqui.</a></p>
-
-           
+                      
         </main>
     </body>
 </html>
