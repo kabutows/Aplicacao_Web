@@ -1,0 +1,31 @@
+header{
+    background: #0BA7D8;
+    top: 0%;
+    width: 100%;
+    height: 110px;
+}
+
+header #logo{
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    font: 400 1.8rem/1 "Roboto", sans-serif;
+    height: 110px;
+}
+
+header p{
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 31px;
+    letter-spacing: 10;
+    color: #FFFFFF;
+}
+
+header img{
+    margin-left: 31px;
+    max-width:200px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
