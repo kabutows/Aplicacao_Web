@@ -23,9 +23,9 @@ main #box-login{
 
 main .input-block-input{
     text-align: center;
-    border-radius: 5px; /*Não está sendo aplicado*/
+    border-radius: 5px;
     color: #000000;
-    width: 330px; /*Não está sendo aplicado*/
+    width: 330px;
     height: auto;
 }
 
@@ -37,7 +37,7 @@ main .input-block-label{
     border-radius: 0px;
 }
 
-main #btcontinuar{
+main #btcriar-cadastro{
     border-radius: 5px;
     background-color: #1BE723;
     color: #FFFFFF;
