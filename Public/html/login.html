@@ -21,24 +21,36 @@
         <main>
             <h1>Login</h1>
             <div id="box-login">
-                <form action="submit">
-
-                    <div class="input-block">
+                <!--TODO: definir action -->
+                <form action="" method="POST">
+                    <div class="input-block-label">
                         <label for="username">Nome:</label>
+                        <br>
+                    </div>
+                    <div class="input-block-input">
                         <input id="username" type="text">
-                    </div>
-
-                    <div class="input-block">
+                        <br>
+                        <br>
+                    </div>             
+                    <div class="input-block-label">
                         <label for="password">Senha:</label>
-                        <input id="password" type="password">
+                        <br>
                     </div>
-
-                    <button type="button">
+                    <div class="input-block-input">
+                        <input id="password" type="password">
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                    
+                    <button id="btcontinuar" type="button">
                         Continuar
                     </button>
                 </form>
             </div>
-            <p>Não tem usuario? <a href="#">Cadastre-se aqui.</a></p>
+            <p><br><br><br>Não tem cadastro? <a href="#">Cadastre-se aqui.</a></p>
+
+           
         </main>
     </body>
 </html>
