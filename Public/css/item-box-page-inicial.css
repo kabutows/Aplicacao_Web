@@ -1,0 +1,48 @@
+main .item-box{
+    width:300px;
+    height:350px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.item-box .image-item-box{
+    position: relative;
+    left: 15px;
+    top: 15px;
+    width: 89%;
+    height: 55%;
+    background: red;
+    cursor: pointer;
+}
+
+.item-box .name-item-box{
+    position: relative;
+    color: #827878;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 27px;
+    width: 89%;
+    height: 50px;
+    border-style: none;
+    resize: none;
+    cursor: pointer;
+    
+}
+
+.item-box .price-item-box{
+    position: relative;
+    color: #827878;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 89%;
+    height: 60px;
+    font-weight: bold;
+    border-style: none;
+  
+}
