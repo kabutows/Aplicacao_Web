@@ -1,0 +1,15 @@
+.input-block-input{
+    text-align: center;
+    border-radius: 5px;
+    color: #000000;
+    width: 330px;
+    height: auto;
+}
+
+.input-block-label{
+    text-align: left;
+    color: #4F4B4B;
+    left: 426px;
+    top: 260px;
+    border-radius: 0px;
+}
