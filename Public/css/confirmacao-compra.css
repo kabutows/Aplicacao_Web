@@ -1,6 +1,10 @@
 main #confirmation-message{
     position: absolute;
-    left: 100px;
-    top: 50px;
-    font-size: 90px;
+    text-align: center;
+    
+}
+
+main #btback{
+    position: absolute;
+    left: 500px;
 }
