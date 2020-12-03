@@ -8,7 +8,8 @@
         <link rel="stylesheet" href="../css/login.css"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
-    
+        
+        <script type="text/javascript" src="../scripts/login.js"></script>
     </head>
     <body>
         <header>
@@ -22,7 +23,7 @@
             <h1>Login</h1>
             <div id="box-login">
                 <!--TODO: definir action -->
-                <form action="" method="POST">
+                <form action="" method="POST" onsubmit="return areValidData()">
                     <div class="input-block-label">
                         <label for="username">Nome:</label>
                         <br>
@@ -43,7 +44,7 @@
                         <br>
                     </div>
                     
-                    <button id="btcontinuar" type="button">
+                    <button id="btcontinuar" type="submit">
                         Continuar
                     </button>
                 </form>
