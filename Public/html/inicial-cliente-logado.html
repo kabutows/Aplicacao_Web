@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Inicial | Navio</title>
+        <link rel="stylesheet" href="../css/header-cliente-logado.css"/>
+        <link rel="stylesheet" href="../css/main.css"/>
+        <link rel="stylesheet" href="../css/inicial-cliente-logado.css"/>
+        <link rel="stylesheet" href="../css/item-box-page-inicial.css"/>
+        <link rel="stylesheet" href="../css/botoes-form.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+        
+        <script type="text/javascript" src="../scripts/show-items-inicial.js"></script>
+        
+    </head>
+    <body onload="showExampleItem()">
+        <header>
+            <div id="logo">
+                <p id= "site-name">Navio</p>
+                <img id="shap" src="../images/Logo_Site.png">
+            </div>
+            <p id="client-name">Olá, Lucas!</p>
+            <img id="btexit" src="../images/Icone_Sair.png">
+            <img id="btaccount" src="../images/Icone_Conta_Usuario.png">
+        </header>
+
+        <main>
+            <!--TODO: carregar produtos -->
+            <!--TODO: funcionalidade de clicar em um produto e apresentá-lo na página de detalhes-item-->
+
+            <!--Estrutura de um item da pagina inicial (item-box): -->
+           <div class="item-box">
+                <img class="image-item-box">
+                <textarea class="name-item-box" readonly="readonly" maxlength="44"></textarea>
+                <input class="price-item-box" type="text" readonly="readonly" >
+            </div>
+
+            <button id="btshow-more" class="btform">Ver mais</button>
+        </main>
+    </body>
+</html>
