@@ -21,22 +21,6 @@ main #box-login{
     text-align: left;
 }
 
-main .input-block-input{
-    text-align: center;
-    border-radius: 5px; /*Não está sendo aplicado*/
-    color: #000000;
-    width: 330px; /*Não está sendo aplicado*/
-    height: auto;
-}
-
-main .input-block-label{
-    text-align: left;
-    color: #4F4B4B;
-    left: 426px;
-    top: 260px;
-    border-radius: 0px;
-}
-
 main #btcontinuar{
     border-radius: 5px;
     background-color: #1BE723;
