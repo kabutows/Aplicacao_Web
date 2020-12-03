@@ -1,0 +1,72 @@
+main #img-item{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+main #name-item{
+    position: absolute;
+    left: 700px;
+    top: 200px;
+    font-size: 30px;
+    color: #4F4B4B;
+    max-width: 600px;
+}
+
+main #price-item{
+    position: absolute;
+    left: 700px;
+    top: 260px;
+    font-size: 30px;
+    color: #827878;
+    
+}
+
+main #description-item{
+    position: absolute;
+    left: 700px;
+    top: 340px;
+    font-size: 20px;
+    color: #827878;
+    max-width: 600px;
+}
+
+main #amount-item{
+    position: absolute;
+    left: 700px;
+    top: 530px;
+    text-align: center;
+}
+
+main #label-amount-item{
+    position: absolute;
+    left: 700px;
+    top: 502px;
+    font-size: 17px;
+   
+}
+
+main #btamount-plus{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 920px;
+    top: 528px;
+}
+
+main #btamount-less{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 960px;
+    top: 528px;
+}
+
+main #btpurchase{
+    position: absolute;
+    width: 290px;
+    height: 45px;
+    left: 830px;
+    top: 600px;
+    letter-spacing: 0.1em;
+}

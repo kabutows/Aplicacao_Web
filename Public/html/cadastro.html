@@ -6,9 +6,12 @@
         <link rel="stylesheet" href="../css/header.css"/>
         <link rel="stylesheet" href="../css/main.css"/>
         <link rel="stylesheet" href="../css/cadastro.css"/>
+        <link rel="stylesheet" href="../css/label-input-form.css"/>
+        <link rel="stylesheet" href="../css/botoes-form.css"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
-    
+        
+        <script type="text/javascript" src="../scripts/cadastro.js"></script>
     </head>
     <body>
         <header>
@@ -22,13 +25,13 @@
             <h1>Cadastro</h1>
             <div id="box-register">
                 <!--TODO: definir action -->
-                <form action="" method="POST">
+                <form action="" method="POST" onsubmit="return areValidData()">
                     <div class="input-block-label">
                         <label for="username">Nome:</label>
                         <br>
                     </div>
                     <div class="input-block-input">
-                        <input id="username" type="text">
+                        <input id="username" type="text" maxlength="20">
                         <br>
                         <br>
                     </div>             
@@ -37,7 +40,7 @@
                         <br>
                     </div>
                     <div class="input-block-input">
-                        <input id="password" type="password">
+                        <input id="password" type="password" maxlength="15">
                         <br>
                         <br>
                         <br>
@@ -47,13 +50,13 @@
                         <br>
                     </div>
                     <div class="input-block-input">
-                        <input id="confirm-password" type="password">
+                        <input id="confirm-password" type="password" maxlength="15">
                         <br>
                         <br>
                         <br>
                     </div>
                     
-                    <button id="btcriar-cadastro" type="button">
+                    <button class="btform" type="submit">
                         Criar seu cadastro
                     </button>
                 </form>

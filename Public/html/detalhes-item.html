@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Detalhes | Navio</title>
+        <link rel="stylesheet" href="../css/header-cliente-logado.css"/>
+        <link rel="stylesheet" href="../css/main.css"/>
+        <link rel="stylesheet" href="../css/detalhes-item.css"/>
+        <link rel="stylesheet" href="../css/label-input-form.css"/>
+        <link rel="stylesheet" href="../css/botoes-form.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+        
+        <script type="text/javascript" src="../scripts/detalhes-item.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <p id= "site-name">Navio</p>
+                <img id="shap" src="../images/Logo_Site.png">
+            </div>
+            <p id="client-name">Olá, Lucas!</p>
+            <img id="btexit" src="../images/Icone_Sair.png">
+            <img id="btaccount" src="../images/Icone_Conta_Usuario.png">
+        </header>
+
+        <main>
+            <img id="img-item" src="../images/imagem_item_exemplo.png">
+            <p id="name-item" ><strong>Cafeteira Oster vermelha 10 litros</strong></p>
+            <p id="price-item"><strong>R$ 221,90</strong></p>
+            <p id="description-item">Tenha em sua casa uma cafeteira de verdade! Em poucos minutos, você terá café fresquinho e com um sabor que só uma Oster pode propiciar!<br>A Oster XR-5050 é capaz de fazer até 10 litros ou 50 xícaras de café de uma vez só. E com sua cor vermelha, ela dará um charme especial a sua cozinha!</p>
+            <!--TODO: definir action -->
+            <form action="" method="POST" >
+                <div class="input-block-label">
+                    <label id="label-amount-item" for="username"><strong>Quantidade:</strong></label>
+                    <br>
+                </div>
+                <div class="input-block-input">
+                    <input id="amount-item" type="text" readonly="readonly" value="1">
+                    <br>
+                    <br>
+                </div>
+                <button id="btamount-plus" class="btform" type="button" onclick="increaseQuantity()">+</button>
+                <button id="btamount-less" class="btform" type="button" onclick="decreaseQuantity()">-</button>
+                <button id="btpurchase" class="btform" type="submit"><strong>Comprar</strong></button>          
+            </form>
+        </main>
+    </body>
+</html>
