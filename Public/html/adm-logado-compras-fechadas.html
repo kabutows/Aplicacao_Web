@@ -10,8 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
         
-        <!--<script type="text/javascript" src="../scripts/insert-rows-table-opcoes-conta-cliente.js"></script>-->
-        <!--<script type="text/javascript" src="../scripts/header-cliente-logado-opcoes-conta.js"></script>-->
+        <script type="text/javascript" src="../scripts/header-adm-logado.js"></script>
         <script type="text/javascript" src="../scripts/codigo_botao_sair.js"></script>
 
     </head>
@@ -22,9 +21,9 @@
                 <img id="shap" src="../images/Logo_Site.png">
             </div>
             <img id="btexit" src="../images/Icone_Sair.png" onclick="redirectsToNonLoggedInicialPage()">
-            <button id="btusers-options" class="btform" >Opções Usuários</button>
-            <button id="btproduct-options" class="btform" >Opções Produtos</button>
-            <button id="btclosed-shopping" class="btform" >Compras Fechadas</button>
+            <button id="btusers-options" class="btform" onclick="redirectsToUserOptionsPage()" >Opções Usuários</button>
+            <button id="btproduct-options" class="btform" onclick="redirectsToProductOptionsPage()" >Opções Produtos</button>
+            <button id="btclosed-shopping" class="btform" onclick="redirectsToClosedPurshasedPage()" >Compras Fechadas</button>
         </header>
 
         <main>
