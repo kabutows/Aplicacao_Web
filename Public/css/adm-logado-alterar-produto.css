@@ -1,0 +1,38 @@
+main{
+    margin: 0 600px;
+    text-align: center;
+}
+
+main h1{
+    position: relative;
+    left: -20%;
+    margin-top: 40px;
+    margin-bottom: 57px;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: normal;
+    width: 500px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: rgba(130, 120, 120, 1);
+}
+
+main #box-product-edit{
+    font: 400 1.8rem/1 "Roboto", sans-serif;
+    text-align: left;
+}
+
+main #btedit{
+    background-color: #E7BA1B;
+}
+
+main #description{
+    resize: none;
+    width: 200px;
+    height: 100px;
+}
+
+main #price{
+    width: 200px;
+}

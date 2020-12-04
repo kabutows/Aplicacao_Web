@@ -5,7 +5,7 @@
         <title>Adm - Usuários | Navio</title>
         <link rel="stylesheet" href="../css/header-adm-logado.css"/>
         <link rel="stylesheet" href="../css/main.css"/>
-        <link rel="stylesheet" href="../css/adm-logado-alterar-usuario.css"/>
+        <link rel="stylesheet" href="../css/adm-logado-excluir-usuario.css"/>
         <link rel="stylesheet" href="../css/label-input-form.css"/>
         <link rel="stylesheet" href="../css/botoes-form.css"/>
         <link rel="stylesheet" href="../css/search-adm-format.css"/>
@@ -14,9 +14,8 @@
         
         <script type="text/javascript" src="../scripts/codigo_botao_sair.js"></script>
         <script type="text/javascript" src="../scripts/header-adm-logado.js"></script>
-        <script type="text/javascript" src="../scripts/adm-logado-alterar-usuario.js"></script>
+        <script type="text/javascript" src="../scripts/adm-logado-excluir-usuario.js"></script>
         <script type="text/javascript" src="../scripts/adm-search.js"></script>
-
 
     </head>
     <body>
@@ -32,7 +31,7 @@
         </header>
 
         <main>
-            <h1>Alterar Usuário</h1>
+            <h1>Excluir Usuário</h1>
              <!--TODO: definir action do form de busca: -->
             <form action="" method="POST" onsubmit="return areValidSearchData()">
                 <div class="input-block-label">
@@ -48,10 +47,10 @@
             </form>
 
             <p id="search-result-phrase" class="input-block-label">Dados do usuário buscado:<br><br></p>
-            <div id="box-user-edit">
+            <div id="box-user-delete">
                 <!--TODO: redirecionar para a págia de opções usuários, caso os dados da submissão sejam válidos-->
                 <!--TODO: definir action -->
-                <form action="" method="POST" onsubmit="return areValidEditUserData()">
+                <form action="" method="POST" onsubmit="return areValidDeleteUserData()">
                     <div class="input-block-label">
                         <label for="username">Nome:</label>
                         <br>
@@ -94,8 +93,8 @@
                         <br>
                     </div>
                     
-                    <button id="btedit" class="btform" type="submit">
-                        Alterar
+                    <button id="btdelete" class="btform" type="submit">
+                        Excluir
                     </button>
                 </form>
             </div>
