@@ -1,0 +1,28 @@
+main h1{
+    position: relative;
+    text-align: left;
+    color: #827878;
+    margin-left: 3%;
+    margin-top: 5%;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+
+}
+
+main #table-my-purchases{
+  position: relative;
+  left: 10%;
+}
+
+main #column-produto, #column-qtd, #column-data{
+    font-size: 20px;
+    color: #4F4B4B;
+    font-weight: normal;
+    width: 200px;
+}
+
+main td{
+    text-align: center;
+    color: #4F4B4B;
+    font-size: 17px;
+}

@@ -1,6 +1,14 @@
 main #confirmation-message{
     position: absolute;
-    left: 100px;
-    top: 50px;
-    font-size: 90px;
+    left: 400px;
+    top: 200px;
+    font-size: 30px;
+    color: #827878;
+    
+}
+
+main #btback{
+    position: absolute;
+    left: 590px;
+    top: 300px;
 }
