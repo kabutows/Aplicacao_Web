@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Adm - Usuários | Navio</title>
+        <link rel="stylesheet" href="../css/header-adm-logado.css"/>
+        <link rel="stylesheet" href="../css/main.css"/>
+        <link rel="stylesheet" href="../css/adm-logado-incluir-usuario.css"/>
+        <link rel="stylesheet" href="../css/label-input-form.css"/>
+        <link rel="stylesheet" href="../css/botoes-form.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+        
+        <script type="text/javascript" src="../scripts/codigo_botao_sair.js"></script>
+        <script type="text/javascript" src="../scripts/header-adm-logado.js"></script>
+        <script type="text/javascript" src="../scripts/adm-logado-incluir-usuario.js"></script>
+
+
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <p id= "site-name">Navio</p>
+                <img id="shap" src="../images/Logo_Site.png">
+            </div>
+            <img id="btexit" src="../images/Icone_Sair.png" onclick="redirectsToNonLoggedInicialPage()">
+            <button id="btusers-options" class="btform" onclick="redirectsToUserOptionsPage()" >Opções Usuários</button>
+            <button id="btproduct-options" class="btform" onclick="redirectsToProductOptionsPage()" >Opções Produtos</button>
+            <button id="btclosed-shopping" class="btform" onclick="redirectsToClosedPurshasedPage()" >Compras Fechadas</button>
+        </header>
+
+        <main>
+            <h1>Incluir Usuário</h1>
+            <div id="box-user-add">
+                <!--TODO: redirecionar para a págia de opções usuários, caso os dados da submissão sejam válidos-->
+                <!--TODO: definir action -->
+                <form action="" method="POST" onsubmit="return areValidAddUserData()">
+                    <div class="input-block-label">
+                        <label for="username">Nome:</label>
+                        <br>
+                    </div>
+                    <div class="input-block-input">
+                        <input id="username" type="text" maxlength="20">
+                        <br>
+                        <br>
+                    </div>
+                    <div class="input-block-label">
+                        <label for="accesslevel">Nível de Acesso:</label>
+                        <br>
+                    </div>
+                    <div class="input-block-input">
+                        <select id="accesslevel" style="width: 200px;">
+                            <option value="0" selected="selected">CLIENTE</option>
+                            <option value="1" >ADM</option>
+                        </select>
+                        <br>
+                        <br>
+                    </div>              
+                    <div class="input-block-label">
+                        <label for="password">Senha:</label>
+                        <br>
+                    </div>
+                    <div class="input-block-input">
+                        <input id="password" type="password" maxlength="15">
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                    <div class="input-block-label">
+                        <label for="confirm-password">Confirmar Senha:</label>
+                        <br>
+                    </div>
+                    <div class="input-block-input">
+                        <input id="confirm-password" type="password" maxlength="15">
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                    
+                    <button id="btadd" class="btform" type="submit">
+                        Incluir
+                    </button>
+                </form>
+            </div>
+                      
+        </main>
+    </body>
+</html>
