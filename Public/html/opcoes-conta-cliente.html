@@ -10,8 +10,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
         
-        <!--<script type="text/javascript" src="../scripts/detalhes-item.js"></script>-->
         <script type="text/javascript" src="../scripts/insert-rows-table-opcoes-conta-cliente.js"></script>
+        <script type="text/javascript" src="../scripts/header-cliente-logado-opcoes-conta.js"></script>
+        <script type="text/javascript" src="../scripts/codigo_botao_sair.js"></script>
 
     </head>
     <body onload="insertRowExample()">
@@ -21,9 +22,9 @@
                 <img id="shap" src="../images/Logo_Site.png">
             </div>
             <p id="client-name">Olá, Lucas!</p>
-            <img id="btexit" src="../images/Icone_Sair.png">
-            <button id="btaccount-delete" class="btform">Excluir Conta</button>
-            <button id="btregister-edit" class="btform">Alterar Cadastro</button>
+            <img id="btexit" src="../images/Icone_Sair.png" onclick="redirectsToNonLoggedInicialPage()">
+            <button id="btaccount-delete" class="btform" onclick="accountDelete()">Excluir Conta</button>
+            <button id="btregister-edit" class="btform" onclick="redirectsToChangeRegistrationPage()">Alterar Cadastro</button>
         </header>
 
         <main>
