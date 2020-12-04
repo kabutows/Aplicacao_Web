@@ -12,6 +12,7 @@
         
         <script type="text/javascript" src="../scripts/header-adm-logado.js"></script>
         <script type="text/javascript" src="../scripts/codigo_botao_sair.js"></script>
+        <script type="text/javascript" src="../scripts/adm-logado-opcoes-produto-botoes.js"></script>
 
     </head>
     <body>
@@ -29,9 +30,9 @@
         <main>
             <div id="page-adm-options">
                 <h1 id="options-adm-title">Opções Produtos</h1>
-                <button id="btoption1" class="btform" >Incluir<br>Produto</button>
-                <button id="btoption2" class="btform" >Alterar<br>Produto</button>
-                <button id="btoption3" class="btform" >Excluir<br>Produto</button>
+                <button id="btoption1" class="btform" onclick="redirectsToProductInclusionPage()">Incluir<br>Produto</button>
+                <button id="btoption2" class="btform" onclick="redirectsToProductEditPage()">Alterar<br>Produto</button>
+                <button id="btoption3" class="btform" onclick="redirectsToProductDeletePage()">Excluir<br>Produto</button>
             </div>
         </main>
     </body>
