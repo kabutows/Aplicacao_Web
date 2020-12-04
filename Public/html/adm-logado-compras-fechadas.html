@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Adm - Compras Fechadas | Navio</title>
+        <link rel="stylesheet" href="../css/header-adm-logado.css"/>
+        <link rel="stylesheet" href="../css/main.css"/>
+        <link rel="stylesheet" href="../css/botoes-form.css"/>
+        <link rel="stylesheet" href="../css/adm-logado-compras-fechadas.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+        
+        <script type="text/javascript" src="../scripts/header-adm-logado.js"></script>
+        <script type="text/javascript" src="../scripts/codigo_botao_sair.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <p id= "site-name">Navio</p>
+                <img id="shap" src="../images/Logo_Site.png">
+            </div>
+            <img id="btexit" src="../images/Icone_Sair.png" onclick="redirectsToNonLoggedInicialPage()">
+            <button id="btusers-options" class="btform" onclick="redirectsToUserOptionsPage()" >Opções Usuários</button>
+            <button id="btproduct-options" class="btform" onclick="redirectsToProductOptionsPage()" >Opções Produtos</button>
+            <button id="btclosed-shopping" class="btform" onclick="redirectsToClosedPurshasedPage()" >Compras Fechadas</button>
+        </header>
+
+        <main>
+            <h1>Compras Fechadas</h1>
+            <br>
+            <br>
+            <!--Tabela para a inserção das compras feitas por todos os clientes:-->
+            <table id="table-my-purchases">
+                <tr>
+                    <th id="column-usuario">Usuário</th>
+                    <th id="column-produto">Produto</th>
+                    <th id="column-qtd">Qtd.</th>
+                    <th id="column-data">Data</th>
+                </tr>
+            </table>
+        </main>
+    </body>
+</html>

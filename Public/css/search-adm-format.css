@@ -1,0 +1,12 @@
+main #search-result-phrase{
+    text-align: left;
+}
+
+main #btsearch{
+    cursor: pointer;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    left: 25%;
+    top: -43px;
+}
