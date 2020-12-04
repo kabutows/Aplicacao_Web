@@ -12,6 +12,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
         
         <script type="text/javascript" src="../scripts/detalhes-item.js"></script>
+        <script type="text/javascript" src="../scripts/header-cliente-logado.js"></script>
+        <script type="text/javascript" src="../scripts/codigo_botao_sair.js"></script>
     </head>
     <body>
         <header>
@@ -20,8 +22,8 @@
                 <img id="shap" src="../images/Logo_Site.png">
             </div>
             <p id="client-name">Olá, Lucas!</p>
-            <img id="btexit" src="../images/Icone_Sair.png">
-            <img id="btaccount" src="../images/Icone_Conta_Usuario.png">
+            <img id="btexit" src="../images/Icone_Sair.png" onclick="redirectsToNonLoggedInicialPage()">
+            <img id="btaccount" src="../images/Icone_Conta_Usuario.png" onclick="redirectsToOpcoesContaClientePage()">
         </header>
 
         <main>
